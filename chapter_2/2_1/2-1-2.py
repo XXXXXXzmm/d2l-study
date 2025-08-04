@@ -31,6 +31,7 @@ print(torch.cat((X, Y), dim=1))
 
 # 构建二维张量，对 X 和 Y 中的元素进行一个一个的对比，相同就是 True, 不同就是False
 print(X == Y)
+# 2.1.8.1 练习题
 print(X > Y)
 print(X < Y)
 

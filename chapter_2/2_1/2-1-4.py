@@ -6,7 +6,6 @@ import torch
 
 X = torch.arange(12, dtype=torch.float32).reshape((3, 4))
 
-# todo: 这里多维怎么处理，或者我要取一列怎么处理
 print(X)
 print(X[0])
 print(X[1:3])
